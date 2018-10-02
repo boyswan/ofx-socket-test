@@ -11,12 +11,11 @@
 
 class ofApp : public ofBaseApp
 {
-  public:
-    void setup() override;
-    void update() override;
-    void draw() override;
+public:
+  void setup() override;
+  void update() override;
 
-    ofxHTTP::SimpleIPVideoServer server;
+  ofxHTTP::SimpleIPVideoServer server;
 
-    ofVideoPlayer player;
+  ofVideoPlayer player;
 };

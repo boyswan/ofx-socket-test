@@ -1,0 +1,5 @@
+.vscode/browse.db
+.vscode/browse.db-shm
+.vscode/browse.db-wal
+obj
+bin/ofx-socket-test_debug.app
